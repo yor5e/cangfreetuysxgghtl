@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover; 
+    background-color:rgb(160, 23, 41);
+    background: linear-gradient;
+}
+
+.form-container {
+    background: linear-gradient(blue,rgb(173, 52, 52),orange);
+    
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Responsive width */
+    max-width: 500px; /* Maximum width */
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="password"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #552727;
+    border-radius: 7px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e9630a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .form-container {
+        padding: 15px; /* Less padding on smaller screens */
+    }
+
+    button {
+        padding: 8px; /* Smaller button padding */
+    }
+}

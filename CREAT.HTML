@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="stylecreat.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            
+            <div class="form-group">
+                <label for="last-name">Full Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="full name" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+           
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="profile-image">Upload Profile Image:</label>
+                <input type="file" id="profile-image" name="profile-image" accept="image/*" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="passport-image">Upload Passport Image:</label>
+                <input type="file" id="passport-image" name="passport-image" accept="image/*">
+            </div>
+            <div class="form-group">
+                <label for="birth-certificate-image">Upload Birth Certificate Image:</label>
+                <input type="file" id="birth-certificate-image" name="birth-certificate-image" accept="image/*">
+            </div>
+            <div class="form-group">
+                <label for="grade8-card-image">Upload Grade 8 Card Image:</label>
+                <input type="file" id="grade8-card-image" name="grade8-card-image" accept="image/*">
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
